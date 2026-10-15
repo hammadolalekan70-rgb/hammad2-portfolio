@@ -9,15 +9,15 @@ export const skillGroups = [
   },
   {
     title: 'Backend',
-    skills: ['Node.js', 'Express', 'REST API design', 'Auth basics (JWT)', 'Form handling'],
+    skills: ['Node.js', 'Express', 'REST API design', 'Socket.io', 'MongoDB modeling'],
   },
   {
     title: 'Data & integrations',
-    skills: ['PostgreSQL', 'MongoDB', 'Fetch / Axios', 'Formspree', 'Env-based config'],
+    skills: ['Fetch / Axios', 'Env-based config', 'Form handling', 'Formspree', 'WhatsApp deep links'],
   },
   {
     title: 'Quality & tooling',
-    skills: ['ESLint', 'Vitest', 'React Testing Library', 'Git & GitHub', 'Vercel / Netlify deploys'],
+    skills: ['ESLint', 'Vitest', 'React Testing Library', 'Git & GitHub', 'Render deploys'],
   },
 ];
 

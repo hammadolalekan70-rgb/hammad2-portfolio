@@ -11,7 +11,7 @@ export default function Skills() {
           id="skills-heading"
           eyebrow="Skills"
           title="What I work with"
-          lede="Grouped by practice. Update src/data/skills.js to match tools you actually use — no fake percentages."
+          lede="Tools I use in production — from React frontends to Node APIs and realtime Socket.io services."
         />
         <ul className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {skillGroups.map((g) => (
