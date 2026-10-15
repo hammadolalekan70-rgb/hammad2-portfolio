@@ -64,7 +64,9 @@ export default function Navbar() {
           ))}
           <li className="ml-2">
             <a
-              href={`mailto:${site.email}`}
+              href={site.whatsapp}
+              target="_blank"
+              rel="noreferrer"
               className="btn-shine inline-flex min-h-[40px] items-center gap-1.5 rounded-full bg-[#f5a623] px-4 py-2 text-sm font-semibold text-[#0b1a2e] transition-colors hover:bg-[#f9c95c]"
             >
               Hire me <ArrowUpRight size={16} aria-hidden="true" />
@@ -101,7 +103,10 @@ export default function Navbar() {
             ))}
             <li className="pt-2">
               <a
-                href={`mailto:${site.email}`}
+                href={site.whatsapp}
+                target="_blank"
+                rel="noreferrer"
+                onClick={close}
                 className="flex min-h-[48px] items-center justify-center gap-2 rounded-full bg-[#f5a623] px-4 py-3 text-sm font-semibold text-[#0b1a2e]"
               >
                 Hire me <ArrowUpRight size={16} aria-hidden="true" />
