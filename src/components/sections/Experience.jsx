@@ -16,7 +16,7 @@ export default function Experience() {
             id="experience-heading"
             eyebrow="Experience"
             title="Background"
-            lede="Replace placeholder entries in src/data/experience.js with verified roles, scope, and outcomes."
+            lede="Three years shipping to production — from React foundations to full-stack systems and team launches."
           />
           <ol className="mt-8 space-y-4">
             {experience.map((job) => (

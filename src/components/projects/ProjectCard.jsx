@@ -113,7 +113,7 @@ export default function FeaturedProjects({ items }) {
             id="work-heading"
             eyebrow="Selected work"
             title="Featured projects"
-            lede="Reusable case-study pages. Every entry below is an editable placeholder until replaced with real client or personal work."
+            lede="Live full-stack work — storefront, API, realtime chat, and marketplace, all deployed to production."
           />
           <Link
             to="/projects"
